@@ -12,7 +12,7 @@ element.innerHTML = "new value";
 var element = document.getElementById("madi"
 );
 
- img.onclick = function(){
+ madi.onclick = function(){
      
-     img.style.marginleft = "100px";
+     madi.style.marginleft = "100px";
  };
