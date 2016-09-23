@@ -2,7 +2,7 @@ console.log('Loaded!');
 prompt("hello i am manoj and is learning the IMAD  online cources ");
 // changing the contents using javascript
 
-var element = document.getdocumentbyid("main-text"
+var element = document.getElementById("main-text"
 );
 
-element.innerthtml = "new value";
+element.innerHTML = "new value";
