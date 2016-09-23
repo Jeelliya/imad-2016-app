@@ -14,5 +14,5 @@ var element = document.getElementById("mera"
 
  mera.onclick = function(){
      
-     mera.Style.marginleft = "100px";
+     mera.style.marginleft = "100px";
  };
