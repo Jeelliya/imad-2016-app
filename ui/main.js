@@ -9,10 +9,10 @@ element.innerHTML = "new value";
 
 // changing the image on click 
 
-var element = document.getElementById("madi"
+var img = document.getElementById("madi"
 );
 
- madi.onclick = function(){
+ img.onclick = function(){
      
-     madi.style.marginleft = "100px";
+     img.style.marginleft = "100px";
  };
