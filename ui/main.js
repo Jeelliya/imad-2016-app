@@ -5,4 +5,4 @@ prompt("hello i am manoj and is learning the IMAD  online cources ");
 var element = document.getdocumentbyid("main-text"
 );
 
-element.converthtml = "new value";
+element.innerthtml = "new value";
