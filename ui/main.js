@@ -6,3 +6,13 @@ var element = document.getElementById("main-text"
 );
 
 element.innerHTML = "new value";
+
+// changing the image on click 
+
+var element = document.getElementById("mara"
+);
+
+ img.onclick = function(){
+     
+     img.Style.marginleft = "100px";
+ };
