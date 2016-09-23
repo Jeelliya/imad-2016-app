@@ -12,7 +12,7 @@ element.innerHTML = "new value";
 var element = document.getElementById("mara"
 );
 
- img.onclick = function(){
+ madi.onclick = function(){
      
-     img.Style.marginleft = "100px";
+     madi.Style.marginleft = "100px";
  };
