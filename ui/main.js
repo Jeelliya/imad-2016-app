@@ -9,10 +9,10 @@ element.innerHTML = "new value";
 
 // changing the image on click 
 
-var element = document.getElementById("mera"
+var element = document.getElementById("madi"
 );
 
- mera.onclick = function(){
+ img.onclick = function(){
      
-     mera.style.marginleft = "100px";
+     img.style.marginleft = "100px";
  };
