@@ -8,7 +8,15 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+//module 6 week 3
 
+var counter = 0;
+
+ apt.get('/counter',function(req,res){
+     
+    counter = counter + 1;
+    res.send(counter,toString());
+ })
 app.get('/article-1',function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'article-1.html'));
 });
