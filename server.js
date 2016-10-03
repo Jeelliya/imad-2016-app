@@ -11,7 +11,6 @@ app.get('/', function (req, res) {
 //module 6 week 3
 
 var counter = 0;
-
  apt.get('/counter',function(req,res){
      
     counter = counter + 1;
